@@ -1,0 +1,75 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+
+  color: #f0f0f0;
+  background-color: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #ff6600;
+}
+
+h1 a {
+  color: #ffcc00;
+}
+h1 a:hover {
+  color: #ff6600;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #ff6600, #ffcc00);
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #ffcc00;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #1a1a1a;
+  color: #ffcc00;
+  padding: 1.5rem 2rem;
+  border-top: 2px solid #ffcc00;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+main {
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #ffcc00;
+}
+
+.card {
+  background-color: #2d2d2d;
+  border: 2px solid #ff6600;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #f0f0f0;
+}
